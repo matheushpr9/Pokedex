@@ -11,14 +11,25 @@ body {
 .card {
     background-color: dimgrey;
     width: 200px;
-    height: 300px;
+    height: 400px;
     margin: 10px;
     padding: 4px;    
 }
-.card div{
-    display: flex;
-    justify-content: center;
-}
+
 .card div img{
     width: 160px;
+}
+
+.types{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.types div{
+    width: 60px;
+ 
+    margin: 5px;
+    background-color: darkcyan;
+    text-align: center;
 }

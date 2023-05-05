@@ -1,7 +1,24 @@
 body {
     background-color: #C70700;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+
 }
 
-#card {
+.card {
     background-color: dimgrey;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 4px;    
+}
+.card div{
+    display: flex;
+    justify-content: center;
+}
+.card div img{
+    width: 160px;
 }

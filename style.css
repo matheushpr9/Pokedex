@@ -1,5 +1,5 @@
 body {
-    background-color: #C70700;
+    background-color: dimgrey;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -9,17 +9,27 @@ body {
 }
 
 .card {
-    background-color: dimgrey;
-    width: 200px;
-    height: 400px;
+    background-color: #C70700;
+    width: 220px;
+    height: 440px;
     margin: 10px;
-    padding: 4px;    
+    padding: 8px;    
+    border-radius: 12px;
+    
+}
+.tela{
+    display:flex;
+    justify-content: center;
+    border: 8px solid black;
+    border-radius: 8px;
+    background-color: white;
 }
 
 .card div img{
-    width: 160px;
+    width: 140px;
+    background-color: white;
+    border-radius: 8px;
 }
-
 .types{
     width: 140px;
     display: flex;
@@ -32,3 +42,11 @@ body {
     background-color: darkcyan;
     text-align: center;
 }
+
+.display {
+    width: 140px;
+    background-color:#008000;
+    
+}
+
+

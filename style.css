@@ -38,6 +38,7 @@ body {
 }
 .types div{
     width: 60px;
+    height: 40px;
     margin: 5px;
     background-color: darkcyan;
     text-align: center;

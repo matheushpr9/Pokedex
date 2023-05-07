@@ -10,91 +10,84 @@ body {
 
 .card {
     background-color: #C70700;
-    width: 220px;
+    width: 280px;
     height: 440px;
     margin: 10px;
-   
     border-radius: 12px;
     
 }
-
-.camera-glass{
-    height: 45px;
-    width: 45px;
-    background-color: blue;
-    border-radius: 50%;
-    display: inline-block;
-    border: 4px solid #bbb;
-    margin: 8px 0px 0px 8px;
-}
-.lights{
-    display: inline-block;
-    vertical-align: top;
+.aling{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+.arround-diislay{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: #a6a6a6;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    border: 1px solid #000000; 
+    margin-top:10px
+}
+
+.red-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
 .red-led{
-    height: 10px;
-    width: 10px;
+    height: 4px;
+    width: 4px;
     background-color: red;
     border-radius: 50%;
     display: inline-block;
     border: 1px solid #000000; 
-    margin: 0px 2px 2px 2px;
+    margin: 0px 6px 0px 6px;
 }
-
-.yellow-led{
-    height: 10px;
-    width: 10px;
-    background-color: yellow;
-    border-radius: 50%;
-    display: inline-block;
-    border: 1px solid #000000; 
-    margin: 2px;
-}
-
-.green-led{
-    height: 10px;
-    width: 10px;
-    background-color: green;
-    border-radius: 50%;
-    display: inline-block;
-    border: 1px solid #000000; 
-    margin: 2px;
-}
-.line{
-    width: 50%;
-    height: 4px;
-    background-color:#000000;
-}
-
-
 
 .tela{
     display:flex;
+    width: 90%;
+    border: 1px solid #000000; 
+    height: 85px;
     justify-content: center;
-    border: 8px solid black;
     border-radius: 8px;
     background-color: white;
     margin: 10px;
+    vertical-align: middle;
+    
 }
 
-.card div img{
+.card div a{
+    vertical-align: middle;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card div a img{
     width: 70px;
     background-color: white;
     border-radius: 8px;
+    align-items: center;
+
 }
 .types{
     width: 110px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     
 }
 .types div{
     display: table;
     width: 60px;
-    height: 30px;
-    margin: 5px;
+    height: 32px;
     text-align: center;
     
 
@@ -102,6 +95,34 @@ body {
 .types div p{
     display: table-cell;
     vertical-align: middle; 
+}
+
+.red-button{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #000000; 
+
+    margin-left: 4px;
+}
+.left-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
+.line{
+    width: 20px;
+    height: 1px;
+    background-color: #000000;
+    margin: 3px;
 }
 
 .display {
@@ -114,14 +135,17 @@ body {
 .grass{
     background-color: green;
     border-radius: 6px;
+    border: 1px solid #000000; 
 }
 
 .poison{
     background-color: purple;
     border-radius: 6px;
+    border: 1px solid #000000; 
 }
 
 .fire{
     background-color: orangered;
     border-radius: 6px;
+    border: 1px solid #000000; 
 }

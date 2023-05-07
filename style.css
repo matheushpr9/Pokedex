@@ -124,13 +124,56 @@ body {
     background-color: #000000;
     margin: 3px;
 }
-
-.display {
-    width: 140px;
-    background-color:#008000;
-    
+.botton-part{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.div-analogue{
+    display: flex;
+    align-items: top;
+    padding-top: 10px;
+}
+.middle-part{
+    display: inline-block;
+    padding-top: 8px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.analogue{
+    height: 40px;
+    width: 40px;
+    background-color: #232b2b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 4px;
+    border: 1.5px solid #000000; 
+    margin-left: 8px;
+    
+}
+.move{
+    background-color: red;
+    border: 1.5px solid #000000;
+    border-radius: 12px;
+}
+.stats{
+    background-color: blue;
+    border: 1.5px solid #000000;
+    border-radius: 12px;
+}
+
+.display {
+    width: 100px;
+    background-color:#008000;
+    border-radius: 14px;  
+    border: 1px solid #000000;
+}
+.display p{
+    margin-top:4px;
+}
 
 .grass{
     background-color: green;
